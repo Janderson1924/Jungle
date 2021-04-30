@@ -48,11 +48,11 @@
           <% end %>
         </li>
         <% if current_user %>
-        <li class="username">Signed In As: <%= current_user.name %></li>
+        <li class="username" style="padding-top: 1.1em">Welcome to the Jungle, <%= current_user.name %>!</li>
        <li> <%= link_to "Logout", '/logout' %> </li>
         <% else %>
         <li><%= link_to 'Login', '/login' %> </li>
-        <li><%= link_to 'Signup', '/signup' %></li>
+        <li><%= link_to 'Register', '/signup' %></li>
         <% end %>
       </ul>
     </div>
