@@ -5,10 +5,15 @@ A mini e-commerce application built with Rails 4.2!
 
 ## Screenshots
 
+##### Homepage
 !["Homepage"](https://github.com/Janderson1924/Jungle/blob/master/images/home-products.png?raw=true)
+##### Product Details
 !["Product Details"](https://github.com/Janderson1924/Jungle/blob/master/images/product-details.png?raw=true)
+##### Logged In
 !["Logged In"](https://github.com/Janderson1924/Jungle/blob/master/images/logged-in-nav.png?raw=true)
+##### Shopping Cart
 !["Shopping Cart"](https://github.com/Janderson1924/Jungle/blob/master/images/cart.png?raw=true)
+##### Empty Cart
 !["Empty Cart"](https://github.com/Janderson1924/Jungle/blob/master/images/empty-cart.png?raw=true)
 
 
