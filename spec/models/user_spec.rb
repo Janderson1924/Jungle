@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe User, type: :model do
   describe 'Validations' do
 
-    it 'must have valid attributes' do
+    xit 'must have valid attributes' do
        params = {
        name:'Justin Anderson',
        email: 'example@me.com',
@@ -12,7 +12,7 @@ RSpec.describe User, type: :model do
        }
        expect(User.new(params)).to be_valid
      end
-    it 'must have a password greater than 4 characters' do
+    xit 'must have a password greater than 4 characters' do
        params = {
        name:'Justin Anderson',
        email: 'example@me.com',
@@ -21,7 +21,7 @@ RSpec.describe User, type: :model do
        }
        expect(User.new(params)).to_not be_valid
      end
-    it 'must have matching password/confirmation fields' do
+    xit 'must have matching password/confirmation fields' do
        params = {
        name:'Justin Anderson',
        email: 'example@me.com',
@@ -32,7 +32,7 @@ RSpec.describe User, type: :model do
      end
     end
     describe '.authenticate_with_credentials' do
-     it "checks the login and returns the authenticated user" do
+     xit "checks the login and returns the authenticated user" do
       user = User.create(name: "Justin Anderson", :email => "justinanderson101@gmail.com", :password => "password", :password_confirmation => "password")
       authenticated_user = User.authenticate_with_credentials("justinanderson101@gmail.com", "password")
       expect(authenticated_user).to eq(user)
